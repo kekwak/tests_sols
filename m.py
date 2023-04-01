@@ -20,7 +20,7 @@ questions = list()
 for i in range(0, len(f), 5):
     questions.append(f'Выберите один самый верный ответ на вопрос и укажите цифру "{f[i]}"\n1. {f[i + 1]}\n2. {f[i + 2]}\n3. {f[i + 3]}\n4. {f[i + 4]}')
 
-openai.api_key = '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'
+openai.api_key = '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'
 
 answers = list()
 for i in range(len(questions)):
